@@ -1,0 +1,82 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David's Website</title>
+</head>
+
+<div class="container">
+  <nav class="navbar">
+      <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projetcs">Projetcs</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      
+  <section id="home">
+    <!-- <img src="./images/myAvatar.png" alt="" class="myAvatar"> -->
+    <div class="hometext">
+      <h1>Welcome To David's Site</h1>
+    <p class="lead">Feel free to explore and check out my projects!</p>
+    </div>
+  </section>
+
+  <section id="about">
+      <h1>About</h1>
+      <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, quis!</p>
+  </section>
+
+  <section id="projetcs">
+      <h1>Projects</h1>
+
+
+      <div class="musicPlayer">
+
+    <div class="music-container" id="music-container">
+      <div class="music-info">
+        <h4 id="title"></h4>
+        <div class="progress-container" id="progress-container">
+          <div class="progress" id="progress"></div>
+        </div>
+      </div>
+
+      <audio src="music/ukulele.mp3" id="audio"></audio>
+
+      <div class="img-container">
+        <img src="images/ukulele.jpg" alt="music-cover" id="cover" />
+      </div>
+      <div class="navigation">
+        <button id="prev" class="action-btn">
+          <i class="fas fa-backward"></i>
+        </button>
+        <button id="play" class="action-btn action-btn-big">
+          <i class="fas fa-play"></i>
+        </button>
+        <button id="next" class="action-btn">
+          <i class="fas fa-forward"></i>
+        </button>
+      </div>
+    </div>
+
+
+      </div>
+
+  </section>
+
+  <section id="contact">
+      <h1>Contact</h1>
+      <p class="lead">E-Mail: David.grimmeisen@gmail.com </p>
+  </section>
+</div>
+
+<script src="script.js"></script>
+</html>
